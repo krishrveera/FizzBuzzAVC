@@ -1,49 +1,38 @@
+/* loginPage CSS */
+
 h1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 50pt;
-    margin-top: 20vh;
-    margin-bottom: 10vh;
 }
- 
-h2{
+
+#startButton{
+    font-size: 1.5em;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50pt;
-    margin-top: 30vh;
-    margin-left: -1em;
+    margin-left: 5em;
+}
+
+.textinput{
+    font-size: 1.5em;
+}
+
+.centeraligned{
+    margin-left: 32em;
+    margin-top: 0%;
 }
  
-h3{
-    text-align: center;
-    font-family: 'Arial', Times, serif;
-    font-size: 30pt;  
-}
- 
+/* FIzzBuzz Page CSS */
+
 p{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20pt;
     margin-top: 10vh;
 }
- 
- 
-/* .inputFromUser{
-    margin: auto;
-} */
- 
-#startButton{
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 2em;
-    margin-left: 4.2em;
-   
-}
- 
-.textinput{
-    font-size: 1.5em;
-    margin-top: 0%;
-   
+
+#welcomeMessage{
+    font-weight: bolder;
+    font-size: 40pt;
 }
  
 .button{
@@ -65,16 +54,18 @@ p{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
- 
-.centeraligned{
-    margin-left: 32em;
-    margin-top: 0%;
- 
-}
 
-.span{
-    font-size: 1.5em;
-    padding: 0.75em;
-    border-radius: 50vh;
-    border-color: black;
+#output{
+    color:red; 
+    font-size: 20px;
+    background-color: #ffcaca;
+    background-image:url(/Content/x.png);
+    background-size: 20px 20px;
+    background-repeat:no-repeat;
+    background-position:2px;
+    padding: 5px;
+    border-radius: 10px 10px 10px;
+    border: 1px solid red;
+    padding-left: 25px;
+    position:relative;
 }
